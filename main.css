@@ -263,6 +263,7 @@ img {
     width:46%;
     background-color: rgb(252,239,226,255);
      font-family: 'Roboto';
+     max-height:700px;
 }
 /*This is the code for the 'place order' and 'send message' buttons in the document*/
 .button3 {
@@ -292,6 +293,7 @@ img {
   border: top 0px;
   margin-top: 20px;
   margin-bottom:30px;
+  max-height:700px;
   width:46%;
   background-color: rgb(252,239,226,255);
 }
@@ -299,14 +301,15 @@ img {
 .sweets-image {
     text-align: center;
     margin-bottom: 30px;
-    background-color: rg;
+    margin-right:130px;
     padding-bottom:40px;
     background-color: rgb(255, 255, 237);
+    margin-left:150px;
 }
 /*This is the code for the 'Back to Home' button in the order and contact section document*/
 .button4 {
   background-color: rgb(255, 255, 237);
-  border:rgb(246,196,150) 2px solid;
+  border:rgb(213, 211, 209) 2px solid;
   color: rgb(27,40,22);
   border-radius: 5px;
   font-weight: bold;
