@@ -1,15 +1,18 @@
-
-/*This is the code for any text in the body*/
+/*This is the code to import text fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fascinate');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/*This is the code for the body*/
 body {
-  color: rgb(27,40,22);
-  font-family: 'Lato';
-  font-size: 18px;
+  background-color: rgb(255, 255, 237);
+
 }
 /*This is the code for any text in the 2nd headings*/
 h2 {
   color: rgb(234,117,11,255);
   font-size: 50px;
   vertical-align: bottom;
+  font-family: 'Aladin';
 }
 /*This is the code for any text in the 3rd headings*/
 h3 {
@@ -18,7 +21,7 @@ h3 {
   text-align: center;
   vertical-align:bottom;
 }
-/*This is the code for the Jalebi logo in the left-hand corner of the pages*/
+/*This is the code for the Mithai Magic logo in the left-hand corner of the pages*/
 .logo {
   position: absolute;
   top: 7px; /* Adjust the top value as needed */
@@ -42,6 +45,7 @@ h1 {
  text-align:center;
  vertical-align:middle;
    -webkit-text-stroke: 4px rgb(215,29,30,255);
+   font-family:'Fascinate';
 }
 /*This is the code for any text in the 5th headings*/
 h5 {
@@ -57,12 +61,6 @@ i {
 .borg {
   color: rgb(215,29,30,255);
 }
-/*This is the code for providing a border for the text used in link2*/
-.bord {
-  border-bottom: 5px solid rgb(215,29,30,255);
-  padding-bottom: 50px;
-}
-
 /*This is the code for the top section including the nav, header and logo of the document*/
 .top {
   text-align: center;
@@ -75,6 +73,7 @@ i {
   color: rgb(234,117,11,255);
   font-weight: bold;
   width:100%;
+  font-family: 'Aladin';
   }
 /*This is the code for the navigation element of the document*/
 nav {
@@ -97,7 +96,7 @@ nav {
 
 /*This is the code for the small description used in the document*/
  .what-are-we {
- margin-top: 40px;
+ margin:40px 0px;
  border: 5px solid rgb(246,196,150);
  width: 97%;
  text-align:center;
@@ -105,6 +104,13 @@ nav {
  font-size: 25px;
  padding:20px;
  line-height:40px;
+ font-family: 'Roboto';
+}
+/*This is the code to make the two-column-layout in the small description of the document*/
+.two-column-layout {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:95px;
 }
   /*This is the code for the text in the small description, about us, contact us, order now and order completed elements of the document*/
   span {
@@ -118,7 +124,7 @@ a {
   color: rgb(234,117,11,255);
   font-size: 100px;
 }
-/*This is the code for the 'place order' button in the document*/
+/*This is the code for the 'order now' and 'contact us' buttons in the document*/
 .button2 {
     background-color: rgb(255, 255, 237);
     border:rgb(246,196,150) 2px solid;
@@ -131,13 +137,14 @@ a {
   border-radius: 5px;
   margin-left:300px;
   font-size:25px;
+   font-family: 'Roboto';
 }
-/*This is the code for the 'place order' button when hovered over by the user in the document*/
+/*This is the code for the 'order now' and 'contact us' when hovered over by the user in the document*/
 .button2:hover {
   background-color: rgb(234,117,11,255);
   color: white;
 }
-/*This is the code for the buttons 'order now' and 'check out more items' used in the document*/
+/*This is the code for the buttons 'view menu' used in the document*/
 .button {
     background-color: rgb(255, 255, 237);
     border:rgb(246,196,150) 2px solid;
@@ -150,13 +157,14 @@ a {
   padding: 10px 20px;
   margin-top: 70px;
   font-size: 25px;
+  font-family: 'Roboto';
 }
-/*This is the code for the buttons 'order now' and 'check out more items' when hovered over by the user in the document*/
+/*This is the code for the button 'view menu' when hovered over by the user in the document*/
 .button:hover {
   background-color: rgb(234,117,11,255);
   color: white;
 }
-/* the review, staff and menu elements of the document*/
+/* the review and menu elements of the document*/
 .reviews {
   background-color: rgb(252,239,226,255);
   margin: 40px -20px;
@@ -166,11 +174,12 @@ a {
   margin: 30px 0;
   width:87%;
 }
-/*This is the code for the subtitles in the review, staff and menu elements of the document*/
+/*This is the code for the subtitles in the review and menu elements of the document*/
   .reviews > h2 {
     padding-bottom: 10px;
+     font-family: 'Roboto';
   }
-/*This is the code for the images in the review, staff and menu elements of the document*/
+/*This is the code for the images in the review and menu elements of the document*/
   .reviews > img {
     width: 40%;
     height: auto;
@@ -178,21 +187,25 @@ a {
     vertical-align: top;
     border: 10px solid white;
   }
-/*This is the code for the text in the review, staff and menu elements of the document*/
+/*This is the code for the text in the review and menu elements of the document*/
   .reviews .review {
     width: 43%;
     display: inline-block;
     vertical-align: top;
     margin-left: 30px;
     border-bottom: 1px solid white;
+     font-family: 'Roboto';
   }
-/*This is the code for only the text in the review, staff and menu elements of the document*/
+/*This is the code for only the text in the review and menu elements of the document*/
   .review {
     font-size: 25px;
+     font-family: 'Roboto';
   }
+/* This is the code for the reviews section of the document*/
   .section .reviews {
     padding: 25px, 0;
   }
+/*This is the code for the top section including the nav, header and logo of the document*/
   .top2 {
   text-align: center;
   background-image: url(Images/back.png);
@@ -204,15 +217,18 @@ a {
   color: rgb(234,117,11,255);
   font-weight: bold;
   width:100%;
+   font-family: 'Aladin';
   }
+  /*This is the code for the footer of the document*/
 .footer {
     padding:10px 20px;
     margin-top: 70px;
     margin-bottom:30px;
     text-align:left;
-    display:block;
     margin-left:200px;
+ font-family: 'Roboto';
 }
+/*This is the code for the buttons in the document*/
 .buttons {
     background-color: rgb(252,239,226,255);
      border: 5px solid rgb(246,196,150);
@@ -220,7 +236,88 @@ a {
      width:99.8%;
      margin-top:30px;
 }
+/*This is the code for the menu and order and contact headings in the document*/
 .menu-name {
     text-align:center;
     font-size:70px;
+    padding:20px;
+    border: 5px solid rgb(246,196,150);
+    background-color: rgb(252,239,226,255);
+}
+/*This is the code for the image under the order and contact section of the document*/
+img {
+    max-width: 95%;
+    height: 95%;
+    border-radius: 30px;
+}
+/*This is the code for the interactive order section of the document*/
+.order {
+    text-align: center;
+    float:left;
+    font-size: 70px;
+    padding: 20px;
+    border: 5px solid rgb(246,196,150);
+    border: top 0px;
+    margin-top: 20px;
+    margin-bottom:30px;
+    width:46%;
+    background-color: rgb(252,239,226,255);
+     font-family: 'Roboto';
+}
+/*This is the code for the 'place order' and 'send message' buttons in the document*/
+.button3 {
+  background-color: rgb(255, 255, 237);
+  border:rgb(246,196,150) 2px solid;
+  color: rgb(27,40,22);
+  border-radius: 5px;
+  font-weight: bold;
+  display: inline-block;
+  text-align: center;
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-size: 25px;
+}
+/*This is the code for the 'place order' and 'send message' buttons when hovered over by the user in the document*/
+.button3:hover {
+  background-color: rgb(234,117,11,255);
+  color: white;
+}
+/*This is the code for the interactive contact section of the document*/
+.contact {
+  float:right;
+   text-align: center;
+  font-size: 70px;
+  padding: 20px;
+  border: 5px solid rgb(246,196,150);
+  border: top 0px;
+  margin-top: 20px;
+  margin-bottom:30px;
+  width:46%;
+  background-color: rgb(252,239,226,255);
+}
+/*This is the code for the image of all the sweets in the order and contact section of the document*/
+.sweets-image {
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: rg;
+    padding-bottom:40px;
+    background-color: rgb(255, 255, 237);
+}
+/*This is the code for the 'Back to Home' button in the order and contact section document*/
+.button4 {
+  background-color: rgb(255, 255, 237);
+  border:rgb(246,196,150) 2px solid;
+  color: rgb(27,40,22);
+  border-radius: 5px;
+  font-weight: bold;
+  margin-left:400px;
+  text-align: center;
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-size: 25px;
+}
+/*This is the code for the 'Back to Home' button when hovered over by the user in the order and contact section document*/
+.button4:hover {
+  background-color: rgb(234,117,11,255);
+  color: white;
 }
